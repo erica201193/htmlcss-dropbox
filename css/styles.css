@@ -86,8 +86,7 @@ text-decoration: none;
 }
 
 .jumbo-img {
-  max-width: 470px;
-  max-height: 290px;
+  max-width: 500px;
 }
 
 .column {
@@ -154,3 +153,7 @@ text-decoration: none;
 .row .small-col {
   flex-basis: 40%;
 }
+
+.card .finale{
+  min-width: 50%;
+} 
