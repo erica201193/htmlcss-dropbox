@@ -2,16 +2,155 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hind', sans-serif;
-  }
-  
-  .large-container {
-    max-width: 900px;
-    width: 100%;
-    margin: 0 auto;
   }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+}
+  
+h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: black;
+}
+
 .large-container {
-    width: 100vw;
-    background-color: aqua;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #B4D0E7;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.in-block {
+  display: inline-block;
+}
+
+.nav-bar {
+  min-width: 100vh;
+  max-height: 45px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.nav-bar-sx {
+  border: 3px dashed red;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.nav-bar-dx {
+  border: 3px dashed red;
+  align-items: center;
+}
+.nav-btn {
+color: grey;
+padding: 2px;
+border: 2px solid black;
+text-decoration: none;
+}
+.small-container {
+  max-width: 700px;
+  background-color: violet;
+  margin: 0 auto;
+}
+
+.margin {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.col {
+  border: 2px solid blue;
+  max-width: 220px;
+  max-height: 290px;
+
+}
+.col-title {
+  min-width: 100%;
+}
+
+.jumbo-img {
+  max-width: 470px;
+  max-height: 290px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.gap {
+  gap: 2.5rem;
+}
+.justify {
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid grey;
+  width: 170px;
+  height: 540px;
+  margin: 0 auto;
+}
+.card-title {
+  border-bottom: 1px solid grey;
+  max-width: 30px;
+  max-height: 100%;
+  color: black;
+  text-align: center;
+}
+
+.team {
+  border: 1px solid grey;
+  max-width: 100%;
+  max-height: 100px;
+}
+.contenitore {
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px dashed red;
+  margin-bottom: 80px;
+}
+.row {
+  display: flex;
+}
+
+.row .col-3 {
+  flex-basis: calc(33.3% - 2rem);
+}
+
+.colonna {
+  flex-grow: 1;
+}
+
+.card1 {
+  border: 1px solid black;
+  padding: 3rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.row .big-col {
+  flex-basis: 60%;
+}
+
+.row .small-col {
+  flex-basis: 40%;
 }
