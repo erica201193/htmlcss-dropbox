@@ -20,7 +20,7 @@ h1 {
 /* Navbar */
 .nav-bar {
   min-width: 100vh;
-  max-height: 45px;
+  min-height: 50px;
   background-color: white;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,6 @@ h1 {
   right: 0;
 }
 .nav-bar-sx {
-  border: 3px dashed red;
   align-items: center;
 }
 
@@ -40,19 +39,22 @@ h1 {
 }
 
 .nav-bar-dx {
-  border: 3px dashed red;
   align-items: center;
 }
 .nav-btn {
 color: grey;
-padding: 5px 10px;
-border: 2px solid black;
+padding: 5px 15px;
 text-decoration: none;
 }
 
-.nav-btn.blue-btn {
+.blue-btn {
   color: white;
   background-color: #0061FF;
+  text-decoration: none;
+}
+
+.btn-padding {
+padding: 10px 20px;
 }
 
 
@@ -97,20 +99,54 @@ text-decoration: none;
 }
 
 .row .big-col {
-  flex-basis: 60%;
+  flex-basis: 57%;
 }
 
 .row .small-col {
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 
-.card {
+.card.jumbotron {
   max-width: 380px;
 }
 
-.card-content {
+.jumbotron .card-content {
   margin-bottom: 40px;
 }
+
+.jumbo-img {
+  max-width: 100%;
+  position: relative;
+  top: 115px;
+}
+
+.grey-border {
+  border: 2px solid rgba(128, 128, 128, 0.185);
+}
+
+.card-title {
+  min-width: 100%;
+  text-align: center;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.185);
+  padding: 10px 0;
+}
+
+.pad-50px {
+  padding: 50px 0;
+}
+
+.pad-25rem {
+  padding: 2.5rem 0;
+}
+
+.small-border {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.185);
+}
+
+.small-hr {
+  max-width: 60px;
+}
+
 
 
 .flex {
@@ -134,18 +170,6 @@ text-decoration: none;
   min-width: 100%;
 }
 
-.jumbo-img {
-  max-width: 555px;
-}
-
-.card-title {
-  border-bottom: 1px solid grey;
-  max-width: 30px;
-  max-height: 100%;
-  color: black;
-  text-align: center;
-}
-
 .team {
   border: 1px solid grey;
   max-width: 100%;
@@ -165,7 +189,3 @@ text-decoration: none;
 .card .finale{
   min-width: 50%;
 } 
-
-.small-hr {
-  max-width: 60px;
-}
