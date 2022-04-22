@@ -1,4 +1,4 @@
-* {
+k* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,32 +8,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
+footer {
+  background-color: black;
 }
   
 h1 {
-  font-size: 42px;
+  font-size: 70px;
   font-weight: 800;
   color: black;
 }
-
-.large-container {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1200px;
-  background-color: #B4D0E7;
-}
-.flex {
-  display: flex;
-}
-.wrap {
-  flex-wrap: wrap;
-}
-
-.in-block {
-  display: inline-block;
-}
-
+/* Navbar */
 .nav-bar {
   min-width: 100vh;
   max-height: 45px;
@@ -61,14 +45,83 @@ h1 {
 }
 .nav-btn {
 color: grey;
-padding: 2px;
+padding: 5px 10px;
 border: 2px solid black;
 text-decoration: none;
 }
-.small-container {
-  max-width: 700px;
-  background-color: violet;
+
+.nav-btn.blue-btn {
+  color: white;
+  background-color: #0061FF;
+}
+
+
+
+/* Main */
+.section {
+  padding: 50px;
+}
+
+.bg-blue {
+  background-color: #B4D0E7;
+}
+
+.large-padding {
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 900px;
   margin: 0 auto;
+}
+
+.container.large {
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+}
+
+.gap {
+  gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.row .colonna {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.row .big-col {
+  flex-basis: 60%;
+}
+
+.row .small-col {
+  flex-basis: 40%;
+}
+
+.card {
+  max-width: 380px;
+}
+
+.card-content {
+  margin-bottom: 40px;
+}
+
+
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.in-block {
+  display: inline-block;
 }
 
 .margin {
@@ -76,37 +129,15 @@ text-decoration: none;
   margin-bottom: 35px;
 }
 
-.col {
-  border: 2px solid blue;
-  max-width: 220px;
-  max-height: 290px;
 
-}
 .col-title {
   min-width: 100%;
 }
 
 .jumbo-img {
-  max-width: 500px;
+  max-width: 555px;
 }
 
-.column {
-  flex-direction: column;
-}
-
-.gap {
-  gap: 2.5rem;
-}
-.justify {
-  justify-content: center;
-}
-
-.card {
-  border: 1px solid grey;
-  width: 170px;
-  height: 540px;
-  margin: 0 auto;
-}
 .card-title {
   border-bottom: 1px solid grey;
   max-width: 30px;
@@ -126,34 +157,10 @@ text-decoration: none;
   border: 1px dashed red;
   margin-bottom: 80px;
 }
-.row {
-  display: flex;
-}
-
 .row .col-3 {
   flex-basis: calc(33.3% - 2rem);
 }
 
-.colonna {
-  flex-grow: 1;
-}
-
-.card1 {
-  border: 1px solid black;
-  padding: 3rem;
-}
-
-.gap-2 {
-  gap: 2rem;
-}
-
-.row .big-col {
-  flex-basis: 60%;
-}
-
-.row .small-col {
-  flex-basis: 40%;
-}
 
 .card .finale{
   min-width: 50%;
