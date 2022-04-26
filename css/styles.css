@@ -26,16 +26,25 @@ h3 {
   font-size: 22px;
 }
 
+.main-title-padding {
+  padding-top: 9rem;
+}
+
+
 .large-padding {
   padding-top: 100px;
 }
 
 .medium-padding {
-  padding-top: 130px;
+  padding-top: 70px;
 }
 
 .small-padding {
-  padding-top: 130px;
+  padding-top: 30px;
+}
+
+.padding-top {
+  padding-top: 110px;
 }
 /* Navbar */
 .nav-bar {
@@ -120,7 +129,7 @@ padding: 10px 20px;
 
 /* Main */
 .section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .bg-blue {
@@ -140,7 +149,6 @@ padding: 10px 20px;
 .row {
   display: flex;
 }
-
 
 
 .row .column {
@@ -263,7 +271,7 @@ li {
 .jumbo-img {
   max-width: 100%;
   position: relative;
-  top: 115px;
+  top: 75px;
 }
 
 .grey-border {
